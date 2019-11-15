@@ -67,7 +67,7 @@ export class Pusher extends Common {
           });
         }
       );
-      this.eventChannels.set(`${channel}_${event}`, {
+      this.eventChannels.set(`${channelName}_${event}`, {
         binding: binding,
         callback: callback
       });
